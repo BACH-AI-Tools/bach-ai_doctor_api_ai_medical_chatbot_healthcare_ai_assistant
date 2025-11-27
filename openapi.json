@@ -1,0 +1,59 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Ai Doctor Api Ai Medical Chatbot Healthcare Ai Assistant",
+    "version": "1.0.0",
+    "description": "RapidAPI: bilgisamapi-api2/ai-doctor-api-ai-medical-chatbot-healthcare-ai-assistant"
+  },
+  "servers": [
+    {
+      "url": "https://ai-doctor-api-ai-medical-chatbot-healthcare-ai-assistant.p.rapidapi.com"
+    }
+  ],
+  "paths": {
+    "/chat": {
+      "post": {
+        "summary": "Neurosurgery",
+        "description": "Neurosurgery",
+        "operationId": "neurosurgery",
+        "parameters": [
+          {
+            "name": "noqueue",
+            "in": "query",
+            "required": false,
+            "description": "Example value: 1",
+            "schema": {
+              "type": "string",
+              "default": null,
+              "enum": null
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {}
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "ApiAuth": {
+        "type": "apiKey",
+        "in": "header",
+        "name": "X-RapidAPI-Key"
+      }
+    }
+  },
+  "security": [
+    {
+      "ApiAuth": []
+    }
+  ]
+}

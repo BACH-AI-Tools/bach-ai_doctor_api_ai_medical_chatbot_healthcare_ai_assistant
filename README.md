@@ -30,7 +30,7 @@
 
 ## 简介
 
-这是一个使用 [FastMCP](https://fastmcp.wiki) 自动生成的 MCP 服务器，用于访问 Ai Doctor Api Ai Medical Chatbot Healthcare Ai Assistant API。
+这是一个 MCP 服务器，用于访问 Ai Doctor Api Ai Medical Chatbot Healthcare Ai Assistant API。
 
 - **PyPI 包名**: `bach-ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant`
 - **版本**: 1.0.0
@@ -108,8 +108,8 @@ export API_KEY="your_api_key_here"
 {
   "mcpServers": {
     "ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant": {
-      "command": "python",
-      "args": ["E:\path\to\ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant\server.py"],
+      "command": "uvx",
+      "args": ["--from", "bach-ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant", "bach_ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant"],
       "env": {
         "API_KEY": "your_api_key_here"
       }
@@ -145,7 +145,6 @@ Neurosurgery
 
 ## 技术栈
 
-- **FastMCP**: 快速、Pythonic 的 MCP 服务器框架
 - **传输协议**: stdio
 - **HTTP 客户端**: httpx
 

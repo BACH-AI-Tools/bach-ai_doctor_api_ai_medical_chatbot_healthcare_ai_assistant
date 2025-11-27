@@ -30,7 +30,7 @@ Visit **[EMCP Platform](https://sit-emcp.kaleido.guru)** now to start your MCP j
 
 ## Introduction
 
-This is an automatically generated MCP server using [FastMCP](https://fastmcp.wiki) for accessing the Ai Doctor Api Ai Medical Chatbot Healthcare Ai Assistant API.
+This is an MCP server for accessing the Ai Doctor Api Ai Medical Chatbot Healthcare Ai Assistant API.
 
 - **PyPI Package**: `bach-ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant`
 - **Version**: 1.0.0
@@ -108,8 +108,8 @@ export API_KEY="your_api_key_here"
 {
   "mcpServers": {
     "ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant": {
-      "command": "python",
-      "args": ["E:\path\to\ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant\server.py"],
+      "command": "uvx",
+      "args": ["--from", "bach-ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant", "bach_ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant"],
       "env": {
         "API_KEY": "your_api_key_here"
       }
