@@ -1,6 +1,6 @@
 [project]
 name = "bach-ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant"
-version = "1.0.0"
+version = "2.0.0"
 description = "RapidAPI: bilgisamapi-api2/ai-doctor-api-ai-medical-chatbot-healthcare-ai-assistant"
 readme = "README.md"
 requires-python = ">=3.10"

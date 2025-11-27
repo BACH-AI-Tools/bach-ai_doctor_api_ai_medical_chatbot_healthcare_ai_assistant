@@ -33,7 +33,7 @@
 这是一个 MCP 服务器，用于访问 Ai Doctor Api Ai Medical Chatbot Healthcare Ai Assistant API。
 
 - **PyPI 包名**: `bach-ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant`
-- **版本**: 1.0.0
+- **版本**: 2.0.0
 - **传输协议**: stdio
 
 
@@ -152,4 +152,4 @@ Neurosurgery
 
 此服务器由 [API-to-MCP](https://github.com/BACH-AI-Tools/api-to-mcp) 工具自动生成。
 
-版本: 1.0.0
+版本: 2.0.0

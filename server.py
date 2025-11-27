@@ -13,8 +13,8 @@ import httpx
 from fastmcp import FastMCP
 
 # 服务器版本和配置
-__version__ = "1.0.0"
-__tag__ = "ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant/1.0.0"
+__version__ = "2.0.0"
+__tag__ = "ai_doctor_api_ai_medical_chatbot_healthcare_ai_assistant/2.0.0"
 
 # API 配置
 API_KEY = os.getenv("API_KEY", "")
